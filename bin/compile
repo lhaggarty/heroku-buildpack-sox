@@ -4,7 +4,7 @@ indent() {
   sed -u 's/^/       /'
 }
 
-echo "-----> Installing ecasound"
+echo "-----> Installing sox"
 
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
